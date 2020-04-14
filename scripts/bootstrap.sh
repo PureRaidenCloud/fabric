@@ -8,9 +8,9 @@
 # if version not passed in, default to latest released version
 VERSION=2.0.0
 # if ca version not passed in, default to latest released version
-CA_VERSION=1.4.6
+CA_VERSION=1.1.0
 # current version of thirdparty images (couchdb, kafka and zookeeper) released
-THIRDPARTY_IMAGE_VERSION=0.4.18
+THIRDPARTY_IMAGE_VERSION=0.4.6
 ARCH=$(echo "$(uname -s|tr '[:upper:]' '[:lower:]'|sed 's/mingw64_nt.*/windows/')-$(uname -m | sed 's/x86_64/amd64/g')")
 MARCH=$(uname -m)
 
